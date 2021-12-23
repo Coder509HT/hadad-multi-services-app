@@ -1,0 +1,17 @@
+{
+  "name": "codewithmarc/hadad_multi_services",
+  "description": "Hadad Multi-Services Application",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/classes"
+    }
+  },
+  "authors": [
+    {
+      "name": "codewithmarc",
+      "email": "codewithmarc@gmail.com"
+    }
+  ],
+  "require": {}
+}

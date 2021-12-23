@@ -1,0 +1,97 @@
+.form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 50rem;
+  min-height: 25rem;
+  padding: 0.3rem 2rem;
+  background-color: var(--wc);
+  border-top: 0.3rem solid var(--pc);
+  box-shadow: 0.1rem 0.1rem 0.1rem var(--bc);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 1.5rem;
+}
+
+.input-div {
+  display: flex;
+  margin: 1rem auto;
+}
+
+.input-div input {
+  flex: 1;
+  padding: 0.1rem 0.7rem;
+  margin: 0.3rem 0;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  border: 0.1rem solid var(--pc);
+  border-radius: 1rem;
+}
+
+.input-div select {
+  flex: 1;
+  padding: 0.3rem 0.7rem;
+  margin: 0.3rem 0;
+  margin-bottom: 2rem;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  border: 0.1rem solid var(--pc);
+  border-radius: 1rem;
+}
+
+.input-div.radio {
+  justify-content: space-between;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.7rem;
+}
+
+.button-div {
+  display: flex;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 1rem 0.5rem;
+  padding: 0.1rem 0.7rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: var(--pc);
+  border-radius: 1rem;
+  transition: all 0.5s ease-in-out;
+  border: 0.1rem solid var(--pc);
+}
+
+.form-btn.reset {
+  background-color: red;
+  color: var(--wc);
+}
+
+.form-btn.reset:hover {
+  color: var(--bc);
+}
+
+.form-btn:hover {
+  background-color: transparent;
+}
+
+.error {
+  color: red;
+  padding: 2rem 0.5rem;
+  font-size: 1rem;
+}
